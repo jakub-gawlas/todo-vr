@@ -5,10 +5,6 @@ import {
 import RobotsScene from '../scenes/Robots';
 import Message from '../components/Message';
 
-const message = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
-  .toUpperCase()
-  .split(' ');
-
 class TasksView extends React.Component {
   state = {
     i: 0
